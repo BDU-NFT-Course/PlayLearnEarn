@@ -1,0 +1,27 @@
+{
+  "name": "ple",
+  "version": "1.0.0",
+  "description": "## The Idea",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BDU-NFT-Course/PlayLearnEarn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BDU-NFT-Course/PlayLearnEarn/issues"
+  },
+  "homepage": "https://github.com/BDU-NFT-Course/PlayLearnEarn#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "@openzeppelin/contracts": "^4.4.2",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.2"
+  }
+}

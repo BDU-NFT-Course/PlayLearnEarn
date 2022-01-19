@@ -1,3 +1,8 @@
+.secrets.json
+.secrets-polygon.json
+artifacts/
+cache/
+
 # Logs
 logs
 *.log
