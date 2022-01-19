@@ -6,7 +6,7 @@ _Play:_ Accept a quest to learn how to develop NFTs by buying a Level 1 Cerifica
 
 _Learn:_ Participate in the NFT workshop and develop an NFT together with the other Level 1 Certificate holders.
 
-_Earn:_ Mint your own Level 2 Certificate and receive back your share from the NFT Workshop revenue.
+_Earn:_ Mint your own Level 2 Certificate and receive back a share from the NFT Workshop revenue.
 
 ## ToDo
 
