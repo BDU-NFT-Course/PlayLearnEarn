@@ -10,9 +10,9 @@ Earn: Mint your own Level 2 Certificate and receive back your share from the NFT
 
 ## To Do
 
-1. [ ]ERC 1155
-2. [ ]Implement a contructor with minting off by default
-3. [ ]Implement function to turn on/off the minting for each item
-4. [ ]Disable transfer except for ID=0
-5. [ ]Require ownership of at least one ID=0 to mint any ID!=0
-6. [ ]Implement Quest Particiation Fee 
+1. [ ] ERC 1155
+2. [ ] Implement a contructor with minting off by default
+3. [ ] Implement function to turn on/off the minting for each item
+4. [ ] Disable transfer except for ID=0
+5. [ ] Require ownership of at least one ID=0 to mint any ID!=0
+6. [ ] Implement Quest Particiation Fee 
