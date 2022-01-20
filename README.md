@@ -10,12 +10,11 @@ _Earn:_ Mint your own Level 2 Certificate and receive back a share from the NFT 
 
 ## ToDo
 
-1. [ ] Start with ERC 1155 contract
-2. [ ] Implement a contructor with minting off by default
-3. [ ] Implement function to turn on/off the minting for each item
+1. [x] Start with ERC 1155 contract
+2. [x] Implement a contructor with minting off by default
+3. [x] Implement function to turn on/off the minting for each item
 4. [ ] Disable transfer except for ID=0
-5. [ ] Require ownership of at least one ID=0 to mint any ID!=0
+5. [x] Require ownership of at least one ID=0 to mint any ID!=0
 6. [ ] Implement Quest Particiation Fee 
 
 ## Deployed Cotract
-https://rinkeby.etherscan.io/address/0x4ACE076C1231aAD0123D7C9f02d844aD77c61D05
