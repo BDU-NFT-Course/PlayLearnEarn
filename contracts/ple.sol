@@ -17,6 +17,8 @@ contract PlayLearnEarnAlpha is ERC1155, Ownable {
     mapping(uint => bool) levelInit;
     mapping(uint => bool) levelOnOff;
 
+    mapping(uint => address []) ownersOf;
+
     constructor() ERC1155(itemURI){
         pleAdmins[msg.sender] = true; 
     }
@@ -29,6 +31,7 @@ contract PlayLearnEarnAlpha is ERC1155, Ownable {
             "Level not available"
         );
         _mint(toAccount, id, 1, "");
+        ownersOf[id].push(toAccount);
         return id;
     }
 
@@ -51,6 +54,11 @@ contract PlayLearnEarnAlpha is ERC1155, Ownable {
         return levelOnOff[id];
     }
     
+    function getOwnersOf(uint256 id) public view returns (address [] memory) {
+        return ownersOf[id];
+    }
+
+
     function addAdmin(address newAdminAddr) public onlyOwner {
         pleAdmins[newAdminAddr] = true;
     }

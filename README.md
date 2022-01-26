@@ -18,3 +18,4 @@ _Earn:_ Mint your own Level 2 Certificate and receive back a share from the NFT 
 6. [ ] Implement Quest Particiation Fee 
 
 ## Deployed Cotract
+https://rinkeby.etherscan.io/address/0xf10bb7ba67a051afb788a0d48dacd969da9185d0
