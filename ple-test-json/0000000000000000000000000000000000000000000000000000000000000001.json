@@ -1,0 +1,11 @@
+{
+  "name": "TEST 2 Certificate: SwampHacks NFT",
+  "description": "Learning Path created by Blockchain Developers United",
+  "image": "ipfs://QmW7rHoRc3CKpJhhRZab7o7NYgActhgWS92zPThGx7km8c/cert2.png",
+  "attributes": [
+      {
+      "trait_type": "Level", 
+      "value": 2
+    }
+      ]
+}

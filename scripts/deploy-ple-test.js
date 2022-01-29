@@ -1,7 +1,7 @@
 // scripts/deploy.js
 async function main () {
     // We get the contract to deploy
-    const MyContract = await ethers.getContractFactory('PlayLearnEarnAlpha');
+    const MyContract = await ethers.getContractFactory('TestPlayLearnEarnAlpha');
     console.log('Deploying Contract...');
     const myContract = await MyContract.deploy();
     await myContract.deployed();

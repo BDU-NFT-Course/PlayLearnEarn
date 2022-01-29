@@ -1,0 +1,11 @@
+{
+  "name": "TEST 1 Certificate: NFT Quest",
+  "description": "Learning Path created by Blockchain Developers United",
+  "image": "ipfs://QmW7rHoRc3CKpJhhRZab7o7NYgActhgWS92zPThGx7km8c/cert1.png",
+  "attributes": [
+      {
+      "trait_type": "Level", 
+      "value": 1
+    } 
+      ]
+}

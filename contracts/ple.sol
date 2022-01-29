@@ -7,10 +7,10 @@ import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract PlayLearnEarnAlpha is ERC1155, Ownable {
-    string public constant name = "Play Learn Earn Alpha";
-    string public constant symbol = "PLE";
-    string public itemURI = "https://raw.githubusercontent.com/BDU-NFT-Course/NFT-Metadata/main/sample-certs/{id}.json";
+contract TestPlayLearnEarnAlpha is ERC1155, Ownable {
+    string public constant name = "TEST Play Learn Earn Alpha";
+    string public constant symbol = "TestPLE";
+    string public itemURI = "ipfs://QmZMXYHZYpUMotQ8EfRoC1jFHJsvQUeAFyZhUvatjFF6Av/{id}.json";
 
     mapping(address => bool) public pleAdmins;
 
@@ -58,7 +58,6 @@ contract PlayLearnEarnAlpha is ERC1155, Ownable {
         return ownersOf[id];
     }
 
-
     function addAdmin(address newAdminAddr) public onlyOwner {
         pleAdmins[newAdminAddr] = true;
     }
@@ -70,10 +69,6 @@ contract PlayLearnEarnAlpha is ERC1155, Ownable {
     function burn(address itemOwnerAccount, uint256 id, uint256 amount) public {
         require(msg.sender == itemOwnerAccount);
         _burn(itemOwnerAccount, id, amount);
-    }
-
-    function contractURI() public pure returns (string memory) {
-        return "https://raw.githubusercontent.com/BDU-NFT-Course/NFT-Metadata/main/sample-certs/contract-metadata-erc1155.json";
     }
 
 }
