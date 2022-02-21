@@ -7,9 +7,9 @@ import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract TestPlayLearnEarnBeta is ERC1155, Ownable {
-    string public constant name = "TEST Play Learn Earn Beta";
-    string public constant symbol = "TestPLE";
+contract PlayLearnEarnV2 is ERC1155, Ownable {
+    string public constant name = "Play Learn Earn V2";
+    string public constant symbol = "PLE";
     string public itemURI = "https://raw.githubusercontent.com/BDU-NFT-Course/ple-data/main/v2/{id}.json";
 
 
