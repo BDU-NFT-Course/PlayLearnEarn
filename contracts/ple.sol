@@ -7,10 +7,10 @@ import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract PlayLearnEarnV1 is ERC1155, Ownable {
-    string public constant name = "Play Learn Earn V1";
-    string public constant symbol = "PLE";
-    string public itemURI = "ipfs://QmdGR2i4LjZHpkwaoi7XAA6Z2BzQyhtAKZYzsZ4sXfzweH/{id}.json";
+contract TestPlayLearnEarnAlpha is ERC1155, Ownable {
+    string public constant name = "TEST Play Learn Earn Alpha";
+    string public constant symbol = "TestPLE";
+    string public itemURI = "ipfs://QmZMXYHZYpUMotQ8EfRoC1jFHJsvQUeAFyZhUvatjFF6Av/{id}.json";
 
     mapping(address => bool) public pleAdmins;
 
